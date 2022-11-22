@@ -1,0 +1,68 @@
+.Gain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    width: max-content;
+    height: 2em;
+    background-color: goldenrod;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    z-index: 2000;
+}
+.logo{
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: rgba(255,0,86);
+    text-shadow: 0px 3px rgba(0,0,0,0.2);
+}
+span{
+    color: #0A0A0A;
+}
+
+
+
+.navItem{
+    border: 2px solid black;
+    /* min-width: max-content; */
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding-inline: 20px;
+    text-shadow: 0px 3px rgba(0,0,0,0.2);
+    box-shadow: 4px 3px 6px rgba(0,0,0,0.2);
+    transition: 0.5s ease-in-out;
+    margin-left: 10px;
+    background-color: white;
+    z-index: 2000;
+}
+
+
+
+
+
+.navItem a{
+    text-decoration: none;
+    color:  black;
+    letter-spacing: 1px;
+}
+
+.navItem span{
+    color: black;
+    font-weight: bolder;
+}
+
+.navItem:hover{
+    /* transform: scale(1.1); */
+    background-color: goldenrod;
+}
+
+.navItem  svg{
+    font-size: 1.2rem;
+    color: black;
+    margin-right: 10px;
+}
+
+
+

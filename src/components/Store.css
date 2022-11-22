@@ -1,0 +1,85 @@
+/* .storeContainer{
+        width: 80%;
+        margin: auto;
+        padding: 5rem;
+} */
+
+.storeItems{
+    margin-top: 140px;
+}
+
+.storeItem{
+    /* width: 150px;
+    height: max-content;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0px 5px 21px rgb(0 0 0 / 85%);
+    backdrop-filter: blur(15px);
+    border: 5px solid transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 5px; */
+
+    background: rgb(41, 40, 40) !important;
+    border-radius: 20px !important;
+    box-shadow: 0px 5px 21px rgb(0 0 0 / 85%) !important;
+    backdrop-filter: blur(15px) !important;
+    border: 7px solid transparent !important;
+    transition: 0.5s ease-in-out;
+}
+
+.storeItem:hover{
+    border: 5px solid rgba(145, 74, 27, 0.644);
+
+}
+
+.Name{
+    /* border: 2px solid rgba(145, 74, 27, 0.644) ;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-size: large;
+    font-weight: bold; */
+    padding-bottom: 6px;
+    border: 2px solid #0a58ca; ;
+    background: rgb(41, 40, 40);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.Quantity {
+    /* font-size: large;
+    font-weight: bold; */
+    border-bottom: 2px solid rgba(252, 251, 251, 0.644) ;
+    padding-bottom: 4px;
+    color: white;
+}
+
+.dangers{
+    background-color: red !important;
+    color: black;
+}
+
+.hide{
+    display: none;
+}
+
+/* .storeItem button{
+    width: max-content;
+    padding: 5px ;
+    font-size: large;
+    font-weight: bold;
+    background: teal;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 5px;
+} */
+
+/* .storeItem button:hover{
+    transform: scale(1.1);
+    background: goldenrod;
+} */
+
+

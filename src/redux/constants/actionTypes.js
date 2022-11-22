@@ -1,0 +1,20 @@
+export const ActionTypes={
+    FETCH_Meds:'FETCH_Meds',
+    LACK_ITEMS:'LACK_ITEMS',
+    RESET_SINGLE_PRODUCT:'RESET_SINGLE_PRODUCT',
+    REDUCE_QUANTITY:'REDUCE_QUANTITY',
+    DAILY_GAIN:'DAILY_GAIN',
+    ADD_TO_STORE:'ADD_TO_STORE',
+    DAILY_ADDED:'DAILY_ADDED',
+    FETCH_Daily_Added_Products:'FETCH_Daily_Added_Products',
+    ADDED_TO_FALSE:'ADDED_TO_FALSE',
+    ADD_MEDECINE:'ADD_MEDECINE',
+    Delete_MEDECINE:'Delete_MEDECINE',
+    SEARCH_ITEMS:'SEARCH_ITEMS',
+    AllTables:'AllTables',
+    AddOrder:'AddOrder',
+    UpdateOrderItem:'UpdateOrderItem',
+    DeleteTable:'DeleteTable',
+    Add_Buy_MEDECINE:'Add_Buy_MEDECINE',
+    FETCH_Daily_Buy_Products:'FETCH_Daily_Buy_Products'
+};

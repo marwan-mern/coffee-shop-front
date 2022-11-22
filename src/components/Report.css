@@ -1,0 +1,162 @@
+.ReportContainer{
+    /* width: 80%;
+    margin: auto;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px; */
+    margin-top: 120px;
+ 
+}
+
+/* .SendReport{
+    background: rgb(27, 58, 160);
+    border: 2px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    width: max-content;
+    transition: 0.5s ease-in-out;
+} */
+
+/* .SendReport:hover{
+    transform: scale(1.1);
+    background:  goldenrod;
+} */
+
+.Daily{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.5s ease-in-out; */
+
+    background: rgb(41, 40, 40) !important;
+    border-radius: 20px !important;
+    box-shadow: 0px 5px 21px rgb(0 0 0 / 85%) !important;
+    backdrop-filter: blur(15px) !important;
+    border: 7px solid transparent !important;
+    transition: 0.5s ease-in-out;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.Daily:hover{
+    border: 7px solid rgba(8, 77, 117, 1) !important;
+}
+
+.Montly{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    transition: 0.5s ease-in-out; */
+
+    background: rgb(41, 40, 40) !important;
+    border-radius: 20px !important;
+    box-shadow: 0px 5px 21px rgb(0 0 0 / 85%) !important;
+    backdrop-filter: blur(15px) !important;
+    border: 7px solid transparent !important;
+    transition: 0.5s ease-in-out;
+
+}
+
+.Montly:hover{
+    border: 7px solid rgba(8, 77, 117, 1) !important;
+}
+
+.AddedToday{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+    background: rgb(41, 40, 40) !important;
+    border-color:  rgb(41, 40, 40) !important;
+    transition: 0.5s ease-in-out;
+}
+
+.AddedTitle{
+    /* width: 90% !important ;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: red;
+    width: max-content;
+    height: max-content;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 20px; */
+
+    padding-bottom: 6px;
+    border: 2px solid #0a58ca; ;
+    background: rgb(41, 40, 40);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/* .AddedItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+} */
+
+.AddedItem{
+    /* height: max-content;
+    background: transparent;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 21px rgb(0 0 0 / 85%);
+    padding: 5px;
+    backdrop-filter: blur(15px);
+    border: 5px solid transparent; */
+
+    background: rgb(41, 40, 40) !important;
+    border: 3px solid #0a58ca !important;
+}
+
+.AddedItemName{
+    /* border: 2px solid rgba(252, 251, 251, 0.644) ;
+    background: rgb(184, 181, 181,0.1);
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: bold; 
+    margin: 5px ; */
+    padding-bottom: 6px;
+    border: 2px solid #0a58ca; ;
+    background: rgb(41, 40, 40);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/* .AddedItem  button{
+    width: 200px;
+    padding: 5px ;
+    font-size: large;
+    font-weight: bold;
+    background: teal;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+} */
+
+/* .AddedItem  button:hover{
+    transform: scale(1.1);
+    background: goldenrod;
+} */
+
+
+
